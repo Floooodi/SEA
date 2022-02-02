@@ -1,1 +1,35 @@
 Mise en place de serveurs externes dans une optique de preparation des campagnes Red Team.
+Framework The PenTesters Framework (PTF) de trustedsec (https://github.com/trustedsec/ptf)
+D'apres P.Kim "Hacking - Edition Red Team 
+
+
+
+Prerequis: 
+
+•	Instance Linux/Unix (VPS)
+•	OS - Ubuntu 20.04 LTS
+
+
+•	sudo su -
+•	apt-get update
+•	apt-get install python
+•	git clone https://github.com/trustedsec/ptf opt/ptf
+•	cd /Opt/ptf && ./ptf
+•	use modules/exploitation/install_update_all
+•	use modules/intelligence-gathering/install_update_all
+•	use modules/post-exploitation/install_update_all
+•	use modules/powershell/install_update_update_all
+•	use   modules/vulnerability-analysis/install_update_all
+•#cd /pentest
+
+Exemples:
+•user@mon-vps:/pentest$ msfconsole
+
+ou
+
+•user@mon-vps:/pentest$ nikto -h mysite.com
+
+
+
+
+
