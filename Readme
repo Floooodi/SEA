@@ -20,7 +20,7 @@ Prerequis:
 •	use modules/post-exploitation/install_update_all
 •	use modules/powershell/install_update_update_all
 •	use   modules/vulnerability-analysis/install_update_all
-•#cd /pentest
+• #cd /pentest
 
 Exemples:
 •user@mon-vps:/pentest$ msfconsole
