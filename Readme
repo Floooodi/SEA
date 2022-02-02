@@ -10,24 +10,25 @@ Prerequis:
 •	OS - Ubuntu 20.04 LTS
 
 
-sudo su -
-apt-get update
-apt-get install python
-git clone https://github.com/trustedsec/ptf opt/ptf
-cd /Opt/ptf && ./ptf
-use modules/exploitation/install_update_all
-use modules/intelligence-gathering/install_update_all
-use modules/post-exploitation/install_update_all
-use modules/powershell/install_update_update_all
-use   modules/vulnerability-analysis/install_update_all
+$sudo su -
+#apt-get update
+#apt-get install python
+#git clone https://github.com/trustedsec/ptf opt/ptf
+#cd /Opt/ptf && ./ptf
+ptf>use modules/exploitation/install_update_all
+ptf>use modules/intelligence-gathering/install_update_all
+ptf>use modules/post-exploitation/install_update_all
+ptf>use modules/powershell/install_update_update_all
+ptf>use   modules/vulnerability-analysis/install_update_all
+ptf>exit
 #cd /pentest
 
 Exemples:
-user@mon-vps:/pentest$ msfconsole
+linuxuser@mon-vps:/pentest$ msfconsole
 
 ou
 
-user@mon-vps:/pentest$ nikto -h mysite.com
+linuxuser@mon-vps:/pentest$ nikto -h mysite.com
 
 
 
