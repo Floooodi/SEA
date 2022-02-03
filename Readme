@@ -14,7 +14,7 @@ $sudo su -
 #apt-get update
 #apt-get install python
 #git clone https://github.com/trustedsec/ptf opt/ptf
-#cd /Opt/ptf && ./ptf
+#cd /opt/ptf && ./ptf
 ptf>use modules/exploitation/install_update_all
 ptf>use modules/intelligence-gathering/install_update_all
 ptf>use modules/post-exploitation/install_update_all
