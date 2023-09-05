@@ -13,14 +13,17 @@ Prérequis:
 $sudo su -
 #apt-get update
 #apt-get install python
-#git clone https://github.com/trustedsec/ptf opt/ptf
+#git clone https://github.com/trustedsec/ptf /opt/ptf
 #cd /opt/ptf && ./ptf
-ptf>use modules/exploitation/install_update_all
-ptf>use modules/intelligence-gathering/install_update_all
-ptf>use modules/post-exploitation/install_update_all
-ptf>use modules/powershell/install_update_all
-ptf>use modules/vulnerability-analysis/install_update_all
-ptf>exit
+
+option 1 : Pour installer la totalité des outils tapez: "use modules/install_update_all" 
+Options2 : Pour installer que les outils de votre choix tapez: 
+          "ptf>use modules/exploitation/install_update_all" 
+          "ptf>use modules/intelligence-gathering/install_update_all"
+          "ptf>use modules/post-exploitation/install_update_all"
+          "ptf>use modules/powershell/install_update_all"
+          "ptf>use modules/vulnerability-analysis/install_update_all"
+          "ptf>exit"
 #cd /pentest
 
 Exemples:
